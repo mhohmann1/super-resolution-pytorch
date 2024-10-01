@@ -1,10 +1,10 @@
 import numpy as np
 import torch
 import argparse
-from super_resolution_pytorch.utils.dataloader import  Data
-from super_resolution_pytorch.utils.helpers import plot_loss
+from utils.dataloader import  Data
+from utils.helpers import plot_loss
 from torch.utils.data import DataLoader, random_split
-from super_resolution_pytorch.model.upscale_model import Upscale, train, test
+from model.upscale_model import Upscale, train, test
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")

@@ -2,7 +2,7 @@ import os
 import numpy as np
 import torch
 from torch.utils.data import Dataset
-from super_resolution_pytorch.utils.helpers import prepare_batch
+from utils.helpers import prepare_batch
 
 class Data(Dataset):
     def __init__(self, obj_dir, occupancy=False):

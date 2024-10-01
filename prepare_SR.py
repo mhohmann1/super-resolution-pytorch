@@ -3,7 +3,7 @@ import numpy as np
 import scipy
 import os
 import argparse
-from super_resolution_pytorch.utils.helpers import odm
+from utils.helpers import odm
 
 if __name__ == "__main__":
 

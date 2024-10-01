@@ -1,4 +1,5 @@
 # Super-Resolution Network
+Our PyTorch implementation of [1], please visit their repository for more details. 
 
 # Content
 - [Installation](#installation)
@@ -16,11 +17,11 @@ conda env update -n super-resolution-pytorch --file environment.yml
 
 # Data
 
-The ShapeNet dataset can be found at [1].
+The ShapeNet dataset can be found at [2] and must be placed in the respective directory `data/`.
 
 # Super-Resolution
 
-Own PyTorch implementation of [2], please visit their repository for more details. Please be sure, that the data is inside the respective directory. For training the Super-Resolution-Network, first pre-process the data with:
+Please be sure, that the data is inside the respective directory. For training the Super-Resolution-Network, first pre-process the data with:
 
 ```
 python prepare_SR.py
@@ -43,6 +44,6 @@ If you use our PyTorch implementation, please refer to our repository `https://g
 
 # Sources
 
-`[1] ShapeNet`
+`[1] https://github.com/EdwardSmith1884/Multi-View-Silhouette-and-Depth-Decomposition-for-High-Resolution-3D-Object-Representation`
 
-`[2] https://github.com/EdwardSmith1884/Multi-View-Silhouette-and-Depth-Decomposition-for-High-Resolution-3D-Object-Representation`
+`[2] ShapeNet`
