@@ -40,7 +40,7 @@ Followed with the occupancy map model:
 python train_SR.py --model_type "occupancy"
 ```
 
-If you use our PyTorch implementation, please refer to our repository `https://github.com/mhohmann1/super-resolution-pytorch` and of course to [3].
+If you use our PyTorch implementation, please refer to our repository `https://github.com/mhohmann1/super-resolution-pytorch` and of course to [1].
 
 
 # Sources
