@@ -46,4 +46,4 @@ If you use our PyTorch implementation, please refer to our repository `https://g
 
 `[1] https://github.com/EdwardSmith1884/Multi-View-Silhouette-and-Depth-Decomposition-for-High-Resolution-3D-Object-Representation`
 
-`[2] ShapeNet`
+`[2] ShapeNetCorev1 - https://shapenet.org/`
