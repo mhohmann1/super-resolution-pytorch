@@ -21,11 +21,12 @@ The ShapeNet dataset can be found at [2] and must be placed in the respective di
 
 # Super-Resolution
 
-Please be sure, that the data is inside the respective directory. For training the Super-Resolution-Network, first pre-process the data with:
+Please be sure, that the data is inside the respective directory `data/ShapeNetCorev1`. For training the Super-Resolution-Network, first pre-process the data with:
 
 ```
 python prepare_SR.py
 ```
+A new folder with the different voxel grid resolutions and ODMs will be created in `data/ShapeNetCoreSR`. If you want, you can remove the folder `data/ShapeNetCorev1` manually. 
 
 Then train the depth map model with:
 
